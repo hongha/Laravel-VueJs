@@ -20,6 +20,12 @@ window.Vue = require('vue');
 Vue.component('example-component', require('./components/ExampleComponent.vue'));
 
 Vue.component('my-component', require('./components/MyComponent.vue'));
+
+Vue.component('conditional-rendering-component', require('./components/ConditionalRendering.vue'));
+
+Vue.component('list-rendering-component', require('./components/ListRendering.vue'));
+
+Vue.component('user-dashboard', require('./components/UserDashboard.vue'));
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key)))
 

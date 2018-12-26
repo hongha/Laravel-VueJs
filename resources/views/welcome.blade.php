@@ -7,7 +7,9 @@
     </head>
     <body>
         <div id="app">
-            <my-component></my-component>
+            <!-- <my-component></my-component> -->
+            <!-- <list-rendering-component></list-rendering-component> -->
+            <user-dashboard></user-dashboard>
         </div>
         <script src="/js/app.js"></script>
     </body>
