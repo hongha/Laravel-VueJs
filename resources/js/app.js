@@ -17,15 +17,25 @@ window.Vue = require('vue');
  * Eg. ./components/ExampleComponent.vue -> <example-component></example-component>
  */
 
-Vue.component('example-component', require('./components/ExampleComponent.vue'));
+// Vue.component('example-component', require('./components/ExampleComponent.vue'));
 
-Vue.component('my-component', require('./components/MyComponent.vue'));
+// Vue.component('my-component', require('./components/MyComponent.vue'));
 
-Vue.component('conditional-rendering-component', require('./components/ConditionalRendering.vue'));
+// Vue.component('conditional-rendering-component', require('./components/ConditionalRendering.vue'));
 
-Vue.component('list-rendering-component', require('./components/ListRendering.vue'));
+// Vue.component('list-rendering-component', require('./components/ListRendering.vue'));
 
-Vue.component('user-dashboard', require('./components/UserDashboard.vue'));
+// Vue.component('user-dashboard', require('./components/UserDashboard.vue'));
+
+// Vue.component('life-cycle', require('./components/LifeCycle.vue'));
+
+// Vue.component('binding-html', require('./components/BindingHTML.vue'));
+
+// Vue.component('form-binding', require('./components/FormBinding.vue'));
+
+Vue.component('event-handling', require('./components/EventHandling.vue'));
+
+Vue.config.keyCodes.sayHello = 13
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key)))
 

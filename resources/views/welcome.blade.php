@@ -9,7 +9,11 @@
         <div id="app">
             <!-- <my-component></my-component> -->
             <!-- <list-rendering-component></list-rendering-component> -->
-            <user-dashboard></user-dashboard>
+            <!-- <user-dashboard></user-dashboard> -->
+            <!-- <life-cycle></life-cycle> -->
+            <!-- <binding-html></binding-html> -->
+            <!-- <form-binding></form-binding> -->
+            <event-handling></event-handling>
         </div>
         <script src="/js/app.js"></script>
     </body>
