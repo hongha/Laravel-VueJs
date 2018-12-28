@@ -33,9 +33,16 @@ window.Vue = require('vue');
 
 // Vue.component('form-binding', require('./components/FormBinding.vue'));
 
-Vue.component('event-handling', require('./components/EventHandling.vue'));
+// Vue.component('event-handling', require('./components/EventHandling.vue'));
 
-Vue.config.keyCodes.sayHello = 13
+// Vue.config.keyCodes.sayHello = 13
+
+// Vue.component('parent', require('./components/Parent.vue'));
+
+Vue.component('api-calling', require('./components/ApiCalling.vue'));
+
+Vue.component('user', require('./components/User.vue'));
+
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key)))
 

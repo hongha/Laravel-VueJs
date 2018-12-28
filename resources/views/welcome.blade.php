@@ -13,7 +13,10 @@
             <!-- <life-cycle></life-cycle> -->
             <!-- <binding-html></binding-html> -->
             <!-- <form-binding></form-binding> -->
-            <event-handling></event-handling>
+            <!-- <event-handling></event-handling> -->
+            <!-- <parent></parent> -->
+            <!-- <api-calling></api-calling> -->
+            <user></user>
         </div>
         <script src="/js/app.js"></script>
     </body>
