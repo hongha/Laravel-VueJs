@@ -41,7 +41,7 @@ window.Vue = require('vue');
 
 Vue.component('api-calling', require('./components/ApiCalling.vue'));
 
-Vue.component('user', require('./components/User.vue'));
+Vue.component('training', require('./components/Training.vue'));
 
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key)))

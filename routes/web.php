@@ -15,9 +15,17 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::resource('products', 'ProductController');
 
-Route::get('/', function () {
+Route::get('/', function () { 
+   return view('home');
+});
+
+Route::get('/welcome', function () { 
    return view('welcome');
-})->middleware('auth');
+});
+
+Route::get('/training', function () { 
+   return view('training');
+});
 
 Auth::routes();
 

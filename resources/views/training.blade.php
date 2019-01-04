@@ -1,39 +1,17 @@
-<!doctype html>
-<html lang="{{ app()->getLocale() }}">
-    <head>
-        <title>Laravel</title>
-        <meta name="csrf-token" content="{{ csrf_token() }}">
-        <link rel="stylesheet" type="text/css" href="/css/app.css">
-    </head>
-    <body>
-        <div id="app">
-            <!-- <my-component></my-component> -->
-            <!-- <list-rendering-component></list-rendering-component> -->
-            <!-- <user-dashboard></user-dashboard> -->
-            <!-- <life-cycle></life-cycle> -->
-            <!-- <binding-html></binding-html> -->
-            <!-- <form-binding></form-binding> -->
-            <!-- <event-handling></event-handling> -->
-            <!-- <parent></parent> -->
-            <!-- <api-calling></api-calling> -->
-            <user></user>
-            <training></training>
-        </div>
-        <script src="/js/app.js"></script>
-    </body>
-</html>
-
 <!DOCTYPE html>
 <html>
   <head>
     <title>Simple Map</title>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
     <meta charset="utf-8">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+    <link rel="stylesheet" type="text/css" href="/css/app.css">
     <style>
       /* Always set the map height explicitly to define the size of the div
        * element that contains the map. */
       #map {
-        height: 100%;
+        height: 66%;
+        width: 66%;
       }
       /* Optional: Makes the sample page fill the window. */
       html, body {
@@ -122,6 +100,10 @@
       <span id="place-name"  class="title"></span><br>
       <span id="place-address"></span>
     </div>
+    <div id="app">
+        <training></training>
+    </div>
+    <script src="/js/app.js"></script>
     <script>
       var map;
       function initMap() {

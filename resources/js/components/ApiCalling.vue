@@ -7,14 +7,14 @@
            <hr>
        </div>
         <div class="create-form">
-            <div class="product-name-input">
-                <input type="text" v-model="product.name">
+            <div class="product-name-input form-group">
+                <input type="text" v-model="product.name" class="form-control">
             </div>
-            <div class="product-name-input">
-                <input type="text" v-model.number="product.price">
+            <div class="product-name-input form-group">
+                <input type="text" v-model.number="product.price" class="form-control">
             </div>
-            <div class="button-create">
-                <button @click="createProduct">Create</button>
+            <div class="button-create form-group">
+                <button @click="createProduct" class="btn btn-primary">Create</button>
             </div>
         </div>
        <div class="list-products">
