@@ -11,7 +11,7 @@
        * element that contains the map. */
       #map {
         height: 66%;
-        width: 66%;
+        width: 100%;
       }
       /* Optional: Makes the sample page fill the window. */
       html, body {
@@ -101,7 +101,7 @@
       <span id="place-address"></span>
     </div>
     <div id="app">
-        <training></training>
+        <training :city-name="'matsue'"></training>
     </div>
     <script src="/js/app.js"></script>
     <script>

@@ -37,11 +37,19 @@ window.Vue = require('vue');
 
 // Vue.config.keyCodes.sayHello = 13
 
-// Vue.component('parent', require('./components/Parent.vue'));
+Vue.component('parent', require('./components/Parent.vue'));
 
 Vue.component('api-calling', require('./components/ApiCalling.vue'));
 
 Vue.component('training', require('./components/Training.vue'));
+
+Vue.component('home', require('./components/Home.vue'));
+
+Vue.component('computed-property', require('./components/ComputedProperty.vue'));
+
+Vue.component('calculator', require('./components/Calculator.vue'));
+
+Vue.component('pagination', require('laravel-vue-pagination'));
 
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key)))

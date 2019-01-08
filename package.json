@@ -21,6 +21,7 @@
         "vue": "^2.5.17"
     },
     "dependencies": {
+        "laravel-vue-pagination": "^2.2.0",
         "moment": "^2.23.0"
     }
 }

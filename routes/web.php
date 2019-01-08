@@ -27,5 +27,7 @@ Route::get('/training', function () {
    return view('training');
 });
 
+Route::get('/calculator', 'HomeController@calculator')->name('calculator');
+
 Auth::routes();
 

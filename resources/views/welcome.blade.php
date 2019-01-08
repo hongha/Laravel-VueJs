@@ -17,7 +17,7 @@
             <!-- <parent></parent> -->
             <!-- <api-calling></api-calling> -->
             <user></user>
-            <training></training>
+            <!-- <training></training> -->
         </div>
         <script src="/js/app.js"></script>
     </body>
